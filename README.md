@@ -1,19 +1,19 @@
 <h1 align="center">Hi 👋, I'm Bilal Ahmad</h1>
-<h3 align="center">Ai Developer @ AntonX</h3>
+<h3 align="center">DevOps Engineer @ AntonX</h3>
 <img align="right" alt="Coding" width="400" src="https://miro.medium.com/v2/resize:fit:828/0*3N994lFVAwmVTsYJ.gif">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=hmzkhnswt&label=Profile%20views&color=0e75b6&style=flat" alt="hmzkhnswt" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=engrbilal1&label=Profile%20views&color=0e75b6&style=flat" alt="engrbilal1" /> </p>
 
-- 🔭 I’m currently student at **UET Peshawar, Pakistan**
+- 🔭 Graduated from **UET Peshawar, Pakistan**
 
-- 🌱 I’m currently Studying **Computer System Engineering**
+- 🌱 I Have done my Bachelor **Mechatronics Engineering**
 
-- 🤝 I’m looking for help with **Data Science, Machine Learning, Deep Learning and NLP**
+- 🤝 I’m looking for help with **Devops Engineer, Cloud Engineer, Infrastructur Engineer**
 
-- 👨‍💻 All of my projects are available at [https://hamzaa-ali.netlify.app/](https://hamzaa-ali.netlify.app/)
+- 👨‍💻 All of my projects are available at [https://github.com/engrbilal1/engrbilal1](https://github.com/engrbilal1/engrbilal1)
 
 - 💬 Ask me about **DS,ML,DL,NLP,Computer Vision**
 
-- 📫 How to reach me **hamzakhanswati117191@gmail.com**
+- 📫 How to reach me **bilaluet2@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
