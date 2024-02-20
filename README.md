@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on [Database Migration and Upgrading](asb.commm)
 
-- 🌱 I’m currently learning **asasd..sd**
+- 🌱 I’m currently learning **Infrastructure as a code (Terraform)**
 
 - 👯 I’m looking to collaborate on [abs](asasd.comsad)
 
