@@ -17,7 +17,7 @@
 
 - 💬 Ask me about **Docker, Kubernetes, Ansible, CiCd**
 
-- 📫 How to reach me **bilaluet2@gmail.com**
+- 📫 How to reach me **bilaluet2@gmail.com**.
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/engineerbilal/](https://www.linkedin.com/in/engineerbilal/)
 
