@@ -11,9 +11,7 @@
 
 - 🌱 I’m currently learning **Infrastructure as a code (Terraform)**
 
-- 👯 I’m looking to collaborate on [abs](asasd.comsad)
-
-- 🤝 I’m looking for help with [asdasd](asdsd)
+- 👯 I’m looking to collaborate on [Kubernetes](https://github.com/engrbilal1/Springboot-Images-Project-CiCd)
 
 - 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/engineerbilal/](https://www.linkedin.com/in/engineerbilal/)
 
