@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/cutebilal007" target="blank"><img src="https://img.shields.io/twitter/follow/cutebilal007?logo=twitter&style=for-the-badge" alt="cutebilal007" /></a> </p>
 
-- 🔭 I’m currently working on [Database Migration and Upgrading](asb.commm)
+- 🔭 I’m currently working on [AWS & Azure Cloud](asb.commm)
 
 - 🌱 I’m currently learning **Infrastructure as a code (Terraform)**
 
