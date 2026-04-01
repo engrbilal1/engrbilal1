@@ -19,6 +19,7 @@
 - 🔭 &nbsp;Working extensively on **AWS, GCP, Azure & Huawei Cloud** — certified across all four
 - ⚙️ &nbsp;Managing **50+ microservices** on production Kubernetes clusters
 - 🏗️ &nbsp;Built **HA Kubernetes clusters** from scratch on on-premises VMs
+- 🐄 &nbsp;Managing **multiple K8s clusters** using **Rancher** as a centralized control plane across on-prem and cloud
 - 🔄 &nbsp;GitOps with **ArgoCD ApplicationSets** — multi-app, multi-environment (dev/staging/prod) via Kustomize overlays
 - 🐘 &nbsp;Running **PostgreSQL HA clusters in K8s** using CloudNativePG (CNPG) with WAL archiving & PITR
 - ⬆️ &nbsp;Performed zero-downtime **Kubernetes cluster upgrades** (v1.30 → v1.34) across 4 minor versions on bare-metal
