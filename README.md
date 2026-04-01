@@ -107,6 +107,16 @@
 ### 🏗️ HA Kubernetes Cluster (On-Prem)
 > Designed and deployed a **production-grade, highly available Kubernetes cluster** on bare-metal VMs with multi-master setup, etcd clustering, and automated failover — all managed via Rancher.
 
+### 🐄 Rancher — Multi-Cluster Kubernetes Management
+> Deployed and managed **Rancher** as a centralized control plane for managing multiple Kubernetes clusters across on-premises and cloud environments.
+>
+> - Imported and managed **multiple K8s clusters** (on-prem HA + cloud-managed) from a single Rancher dashboard
+> - Configured **role-based access control (RBAC)** across clusters — mapping teams to namespaces and projects with fine-grained permissions
+> - Used Rancher **Projects** to group namespaces and enforce resource quotas and network policies across clusters
+> - Managed cluster **catalogs and Helm app deployments** via Rancher Apps & Marketplace
+> - Monitored all clusters centrally using Rancher's integrated **Prometheus & Grafana** stack
+> - Used Rancher to perform **node pool scaling**, OS upgrades, and certificate rotation without touching kubeconfig directly
+
 ### 🔭 Full-Stack Observability Platform
 > Built a complete observability stack: **Prometheus** (metrics) → **Grafana** (dashboards) → **Loki + Promtail** (logs) → **Alertmanager** (notifications via Slack/PagerDuty) + **Blackbox Exporter** for external API/endpoint uptime monitoring.
 
