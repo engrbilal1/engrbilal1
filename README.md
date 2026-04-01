@@ -1,37 +1,169 @@
-<h1 align="center">Hi 👋, I'm Bilal Ahmad</h1>
-<h3 align="center">A passionate Cloud DevOps Engineer from Pakistan</h3>
+<div align="center">
 
-<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=engrbilal1&label=Profile%20views&color=0e75b6&style=flat" alt="engrbilal1" /> </p> -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Bilal%20Ahmad&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Cloud%20DevOps%20%7C%20SRE%20Engineer&descAlignY=58&descSize=20&descColor=a8d8ea&animation=fadeIn" width="100%"/>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=engrbilal1" alt="engrbilal1" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/engrbilaal" target="blank"><img src="https://img.shields.io/twitter/follow/engrbilaal?logo=twitter&style=for-the-badge" alt="engrbilaal" /></a> </p>
-
-- 🔭 I’m currently working on [AWS & Azure Cloud](asb.commm)
-
-- 🌱 I’m currently learning **Infrastructure as a code (Terraform)**
-
-- 👯 I’m looking to collaborate on [Kubernetes](https://github.com/engrbilal1/Springboot-Images-Project-CiCd)
-
-- 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/engineerbilal/](https://www.linkedin.com/in/engineerbilal/)
-
-- 💬 Ask me about **Docker, Kubernetes, Ansible, CiCd**
-
-- 📫 How to reach me **bilaluet2@gmail.com**.
-
-- 📄 Know about my experiences [https://www.linkedin.com/in/engineerbilal/](https://www.linkedin.com/in/engineerbilal/)
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/cutebilal007" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="cutebilal007" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/engineerbilal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="engineerbilal" height="30" width="40" /></a>
+<p>
+  <img src="https://komarev.com/ghpvc/?username=engrbilal1&label=Profile%20Views&color=2c5364&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Experience-3%2B%20Years-brightgreen?style=for-the-badge&logo=&color=2c5364" />
+  <img src="https://img.shields.io/badge/Microservices%20Managed-50%2B-blue?style=for-the-badge&color=203a43" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://travis-ci.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/travis-ci/travis-ci-icon.svg" alt="travisci" width="40" height="40"/> </a> </p>
+</div>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=engrbilal1&show_icons=true&locale=en&layout=compact" alt="engrbilal1" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=engrbilal1&show_icons=true&locale=en" alt="engrbilal1" /></p>
+## 👨‍💻 About Me
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=engrbilal1&" alt="engrbilal1" /></p>
+> **Cloud DevOps & SRE Engineer** with 3+ years of hands-on experience designing, automating, and operating cloud-native infrastructure at scale. Passionate about building resilient systems, automating everything, and driving observability from day one.
+
+- 🔭 &nbsp;Working extensively on **AWS, GCP, Azure & Huawei Cloud** — certified across all four
+- ⚙️ &nbsp;Managing **50+ microservices** on production Kubernetes clusters
+- 🏗️ &nbsp;Built **HA Kubernetes clusters** from scratch on on-premises VMs
+- 📡 &nbsp;Deep expertise in **full-stack observability** — Prometheus, Grafana, Loki, Alertmanager & more
+- 🌱 &nbsp;Currently advancing skills in **Platform Engineering & FinOps**
+- 💬 &nbsp;Ask me about **K8s, Docker, CI/CD, IaC, Monitoring, SRE practices**
+- 📫 &nbsp;Reach me at **bilaluet2@gmail.com**
+
+---
+
+## 🏅 Certifications
+
+<div align="center">
+
+| Cloud Provider | Certification |
+|---|---|
+| ☁️ **AWS** | AWS Certified (Solutions Architect / DevOps) |
+| 🌐 **Google Cloud** | GCP Professional Cloud DevOps Engineer |
+| 🔷 **Microsoft Azure** | Azure DevOps Expert / Administrator |
+| 🟥 **Huawei Cloud** | HCIP / HCIA Cloud Computing |
+
+</div>
+
+---
+
+## 🛠️ Tech Stack & Expertise
+
+### ☁️ Cloud Platforms
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Huawei Cloud](https://img.shields.io/badge/Huawei%20Cloud-%23FF0000.svg?style=for-the-badge&logo=huawei&logoColor=white)
+
+### 🐳 Containers & Orchestration
+![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Rancher](https://img.shields.io/badge/Rancher-%230075A8.svg?style=for-the-badge&logo=rancher&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-%230F1689.svg?style=for-the-badge&logo=helm&logoColor=white)
+![Harbor](https://img.shields.io/badge/Harbor-%2360B932.svg?style=for-the-badge&logo=harbor&logoColor=white)
+
+### 🔁 CI/CD & GitOps
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-%23EF7B4D.svg?style=for-the-badge&logo=argo&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab%20CI-%23FC6D26.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+![Self-Hosted Runners](https://img.shields.io/badge/Self--Hosted%20Runners-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)
+
+### 📦 Infrastructure as Code
+![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
+![Pulumi](https://img.shields.io/badge/Pulumi-%238A3391.svg?style=for-the-badge&logo=pulumi&logoColor=white)
+
+### 📊 Observability & SRE
+![Prometheus](https://img.shields.io/badge/Prometheus-%23E6522C.svg?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
+![Loki](https://img.shields.io/badge/Loki-F0A500?style=for-the-badge&logo=grafana&logoColor=white)
+![Alertmanager](https://img.shields.io/badge/Alertmanager-%23E6522C.svg?style=for-the-badge&logo=prometheus&logoColor=white)
+
+### 🗄️ Databases & Messaging
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-%23DC382D.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-%23231F20.svg?style=for-the-badge&logo=apachekafka&logoColor=white)
+
+### 🌐 Networking & Security
+![Nginx](https://img.shields.io/badge/NGINX-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![Istio](https://img.shields.io/badge/Istio-%23466BB0.svg?style=for-the-badge&logo=istio&logoColor=white)
+![Vault](https://img.shields.io/badge/Vault-%23000000.svg?style=for-the-badge&logo=vault&logoColor=white)
+![Cert Manager](https://img.shields.io/badge/Cert--Manager-%23326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+### 🐧 OS & Scripting
+![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+## 🚀 Key Projects & Highlights
+
+### 🏗️ HA Kubernetes Cluster (On-Prem)
+> Designed and deployed a **production-grade, highly available Kubernetes cluster** on bare-metal VMs with multi-master setup, etcd clustering, and automated failover — all managed via Rancher.
+
+### 🔭 Full-Stack Observability Platform
+> Built a complete observability stack: **Prometheus** (metrics) → **Grafana** (dashboards) → **Loki + Promtail** (logs) → **Alertmanager** (notifications via Slack/PagerDuty) + **Blackbox Exporter** for external API/endpoint uptime monitoring.
+
+### 🐳 Private Container Registry — Harbor
+> Deployed and maintained a **self-hosted Harbor registry** with role-based access control, image vulnerability scanning, and replication policies integrated into CI/CD pipelines.
+
+### ⚡ Self-Hosted GitHub Actions Runners
+> Configured **ephemeral self-hosted runners** on Kubernetes for secure, scalable CI/CD — reducing pipeline costs and enabling workloads that require access to private network resources.
+
+### 🔄 GitOps for 50+ Microservices
+> Implemented GitOps workflows using **ArgoCD** across multiple environments, managing 50+ microservices with automated sync, rollback, and health monitoring.
+
+---
+
+## 📐 SRE Practices I Follow
+
+```
+📏  SLO / SLA Definition     →  Error budgets for every critical service
+🔁  Blameless Post-mortems   →  RCA docs after every incident
+🚦  Traffic Management       →  Canary & blue-green deployments via K8s + Argo Rollouts
+🔐  Secrets Management       →  HashiCorp Vault + External Secrets Operator
+📦  GitOps                   →  ArgoCD for declarative, auditable deployments
+📉  Capacity Planning        →  HPA / VPA / Cluster Autoscaler on cloud & on-prem
+🌐  Service Mesh             →  Istio for mTLS, traffic shaping & observability
+🛡️  Security Hardening       →  Pod Security Admission, NetworkPolicies, image scanning
+```
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=engrbilal1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=engrbilal1&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=engrbilal1&theme=tokyonight&hide_border=true" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=engrbilal1&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" />
+</div>
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/engineerbilal)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/engrbilaal)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bilaluet2@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer&animation=fadeIn" width="100%"/>
+
+*"Infrastructure is code. Reliability is a feature. Automation is the goal."*
+
+</div>
