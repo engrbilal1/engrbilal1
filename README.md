@@ -19,6 +19,9 @@
 - 🔭 &nbsp;Working extensively on **AWS, GCP, Azure & Huawei Cloud** — certified across all four
 - ⚙️ &nbsp;Managing **50+ microservices** on production Kubernetes clusters
 - 🏗️ &nbsp;Built **HA Kubernetes clusters** from scratch on on-premises VMs
+- 🔄 &nbsp;GitOps with **ArgoCD ApplicationSets** — multi-app, multi-environment (dev/staging/prod) via Kustomize overlays
+- 🐘 &nbsp;Running **PostgreSQL HA clusters in K8s** using CloudNativePG (CNPG) with WAL archiving & PITR
+- ⬆️ &nbsp;Performed zero-downtime **Kubernetes cluster upgrades** (v1.30 → v1.34) across 4 minor versions on bare-metal
 - 📡 &nbsp;Deep expertise in **full-stack observability** — Prometheus, Grafana, Loki, Alertmanager & more
 - 🌱 &nbsp;Currently advancing skills in **Platform Engineering & FinOps**
 - 💬 &nbsp;Ask me about **K8s, Docker, CI/CD, IaC, Monitoring, SRE practices**
@@ -32,10 +35,10 @@
 
 | Cloud Provider | Certification |
 |---|---|
-| ☁️ **AWS** | AWS Certified (Solutions Architect / DevOps) |
-| 🌐 **Google Cloud** | GCP Professional Cloud DevOps Engineer |
-| 🔷 **Microsoft Azure** | Azure DevOps Expert / Administrator |
-| 🟥 **Huawei Cloud** | HCIP / HCIA Cloud Computing |
+| ☁️ **AWS** | AWS Certified (Solutions Architect) |
+| 🌐 **Google Cloud** | GCP Associate Cloud Engineer |
+| 🔷 **Microsoft Azure** | Azure Fundamentals AZ-900|
+| 🟥 **Huawei Cloud** | HCCDA |
 
 </div>
 
@@ -62,6 +65,8 @@
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-%23EF7B4D.svg?style=for-the-badge&logo=argo&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-%23FC6D26.svg?style=for-the-badge&logo=gitlab&logoColor=white)
 ![Self-Hosted Runners](https://img.shields.io/badge/Self--Hosted%20Runners-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)
+![Kustomize](https://img.shields.io/badge/Kustomize-%23326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Argo Rollouts](https://img.shields.io/badge/Argo%20Rollouts-%23EF7B4D.svg?style=for-the-badge&logo=argo&logoColor=white)
 
 ### 📦 Infrastructure as Code
 ![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
@@ -80,6 +85,8 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-%23DC382D.svg?style=for-the-badge&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-%23231F20.svg?style=for-the-badge&logo=apachekafka&logoColor=white)
+![CloudNativePG](https://img.shields.io/badge/CloudNativePG-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![PgBouncer](https://img.shields.io/badge/PgBouncer-%23008bb9.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ### 🌐 Networking & Security
 ![Nginx](https://img.shields.io/badge/NGINX-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
@@ -109,8 +116,51 @@
 ### ⚡ Self-Hosted GitHub Actions Runners
 > Configured **ephemeral self-hosted runners** on Kubernetes for secure, scalable CI/CD — reducing pipeline costs and enabling workloads that require access to private network resources.
 
-### 🔄 GitOps for 50+ Microservices
-> Implemented GitOps workflows using **ArgoCD** across multiple environments, managing 50+ microservices with automated sync, rollback, and health monitoring.
+### 🔄 GitOps — Multi-App, Multi-Environment at Scale
+> Implemented a **GitOps platform with ArgoCD** managing 50+ microservices across `dev`, `staging`, and `production` environments. Used **ArgoCD ApplicationSets** with Git directory generators to auto-deploy new apps from repo structure — zero manual ArgoCD config per app. Each environment maps to a dedicated overlay in a monorepo (`apps/<service>/overlays/<env>/`) using **Kustomize**, with Helm charts for third-party dependencies. Sync waves enforce deployment ordering; health checks gate promotions between environments.
+
+```
+📁 gitops-repo/
+├── apps/
+│   ├── payment-service/
+│   │   ├── base/
+│   │   └── overlays/
+│   │       ├── dev/        ← lower replicas, debug logging
+│   │       ├── staging/    ← mirror of prod resources
+│   │       └── production/ ← HPA, PDB, resource limits enforced
+│   └── auth-service/ ...
+├── infrastructure/
+│   ├── monitoring/         ← Prometheus, Grafana, Loki stack
+│   ├── ingress/            ← Nginx Ingress + cert-manager
+│   └── cnpg/               ← CloudNativePG operator + clusters
+└── applicationsets/        ← ArgoCD ApplicationSet manifests
+```
+
+### 🐘 CloudNativePG (CNPG) — PostgreSQL HA in Kubernetes
+> Deployed and operated **CloudNativePG operator** to run highly available PostgreSQL clusters natively inside Kubernetes — replacing external managed DB services for cost savings and full control.
+>
+> - Provisioned **primary + 2 replica** PostgreSQL clusters with streaming replication and automatic failover
+> - Configured **continuous WAL archiving** to S3-compatible object storage for point-in-time recovery (PITR)
+> - Managed **scheduled backups**, connection pooling via **PgBouncer**, and TLS-encrypted client connections
+> - Integrated CNPG cluster credentials with **External Secrets Operator** → HashiCorp Vault pipeline
+> - Monitored replication lag, WAL sender/receiver status, and backup freshness via dedicated **Grafana dashboards** (CNPG community dashboard)
+
+### ⬆️ Kubernetes Cluster Upgrade — v1.30 → v1.34
+> Performed a **zero-downtime, rolling in-place upgrade** of a production on-premises Kubernetes cluster across 4 minor versions (1.30 → 1.31 → 1.32 → 1.33 → 1.34), following Kubernetes' one-minor-version-at-a-time policy.
+>
+> **Upgrade sequence per version:**
+> ```
+> 1. Review API deprecations & release notes for each target version
+> 2. Upgrade kubeadm on first control-plane node → apply new control-plane config
+> 3. Upgrade remaining control-plane nodes (HA etcd stays healthy throughout)
+> 4. Upgrade kubelet + kubectl on all control-plane nodes
+> 5. cordon → drain worker node → upgrade kubeadm/kubelet/kubectl → uncordon
+> 6. Validate: kubectl get nodes, pod health, etcd member list, CNI/CSI compatibility
+> ```
+> - Pre-validated **deprecated API removals** (e.g., `policy/v1beta1 PodSecurityPolicy` gone in 1.25+, `flowcontrol.apiserver.k8s.io/v1beta2` in 1.32) and migrated manifests ahead of upgrade
+> - Verified **CNI plugin** (Calico/Flannel) and **CSI driver** compatibility matrix before each hop
+> - Ran **Rancher** UI upgrade path in parallel for clusters managed via Rancher, using its built-in node drain + upgrade orchestration
+> - Validated workloads, Ingress, PVCs, and CNPG cluster health at every version boundary before proceeding
 
 ---
 
@@ -133,16 +183,25 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=engrbilal1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=engrbilal1&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+<!--
+  ℹ️ STATS CARDS — the old public vercel instance (github-readme-stats.vercel.app) was shut down in late 2025.
+  These cards use github-readme-stats-fast.vercel.app, a community-maintained stable fork.
+  For maximum reliability, self-host your own instance:
+  https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own
+-->
+
+<img height="180em" src="https://github-readme-stats-fast.vercel.app/api?username=engrbilal1&show_icons=true&theme=tokyonight&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=engrbilal1&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=engrbilal1&theme=tokyonight&hide_border=true" />
+  <!-- Streak: updated canonical URL — streak-stats.demolab.com is the current official host -->
+  <img src="https://streak-stats.demolab.com/?user=engrbilal1&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
+  <!-- Trophy: github-profile-trophy.vercel.app is still actively maintained -->
   <img src="https://github-profile-trophy.vercel.app/?username=engrbilal1&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" />
 </div>
 
