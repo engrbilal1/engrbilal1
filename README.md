@@ -202,7 +202,7 @@
 
 <div align="center">
   <!-- Trophy: github-profile-trophy.vercel.app is still actively maintained -->
-  <img src="https://github-profile-trophy.vercel.app/?username=engrbilal1&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" />
+  <img src="https://github-profile-trophy-kannan.vercel.app/?username=engrbilal1&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" />
 </div>
 
 ---
